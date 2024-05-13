@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  tensorflow:
+    image: tensorflow/tensorflow:latest-jupyter
+    container_name: tensorflow
+    volumes:
+      - ./notebooks:/tf/notebooks
+    ports:
+      - "8888:8888"
+    environment:
+      - JUPYTER_TOKEN=hwr
