@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-First, make sure that Docker (Desktop) is installed. Installation instructions can be found in the [official documentation] (https://docs.docker.com/get-docker/).
+First, make sure that Docker (Desktop) is installed. Installation instructions can be found in the [official documentation](https://docs.docker.com/get-docker/).
 
 To start the compose in VS Code or with the command line, follow the steps below:
 
