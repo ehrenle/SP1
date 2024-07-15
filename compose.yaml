@@ -1,9 +1,11 @@
 services:
   tensorflow:
-    image: tensorflow/tensorflow:latest-jupyter
+    image: tensorflow/tensorflow:2.15.0-gpu-jupyter
     container_name: tensorflow
     volumes:
       - ./notebooks:/tf/notebooks
+      - ./checkpoints:/tf/checkpoints
+      - ./plots/:/tf/plots
     ports:
       - "8888:8888"
     environment:
